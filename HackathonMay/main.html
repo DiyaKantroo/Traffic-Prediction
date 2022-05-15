@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Weather predictor</title>
+	<link rel="stylesheet" href="styles.css">
+	<script language="javascript">
+		function SelectRedirect(){
+			switch(document.getElementById('Area').value)
+			{
+				case "Kothrud":
+					window.location="file:///C:/Users/Aryap/OneDrive/Desktop/HackathonMay/form1.html";
+					break;
+                case "Pimpri Chinchwad":
+					window.location="file:///C:/Users/Aryap/OneDrive/Desktop/HackathonMay/form2.html";
+					break;
+					default:
+						window.location="file:///D:/Web%20Dev/None.html";
+						break;
+			}
+
+		}
+	</script>
+</head>
+<body>
+
+<form class="Predictor" action="Form.html" method="POST">
+
+	<h1 class="title">Make Ambulance Yours</h1>
+	<h2 class="subtitle">Enter the region you live in</h2>
+	<div class="input-field">
+	
+	<select id="Area" name="Area" onchange="SelectRedirect();">
+		<option value="Area"> Select Region</option>
+		<option value="Kothrud"> Kothrud</option>
+		<option value="Pimpri Chinchwad"> Pimpri Chinchwad</option>
+	</select>
+</div>
+
+
+	
+
+	
+	
+	
+      
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
